@@ -8,7 +8,7 @@ This repository contains a collection of AppleScript automation programs designe
 
 1. Open Script Editor App from macOS.
 2. Copy and paste the script into the editor.
-3. Save the script with an appropriate filename, such as `SafariWebsiteLauncher.applescript`.
+3. Save the script with an appropriate filename, such as `SafariWebsiteLauncher.applescript`
 4. Run the script by clicking the Run button in Script Editor, or by double-clicking the saved script file.
 
 > **Note**\
