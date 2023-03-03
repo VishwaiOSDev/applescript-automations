@@ -1,4 +1,5 @@
--- This script opens the Simulator in Xcode.
+-- This script opens Xcode and Simulator.
+
 tell application "Xcode"
 	activate
 	tell application "System Events"
