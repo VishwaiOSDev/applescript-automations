@@ -1,8 +1,17 @@
---  This script opens Safari and launches GitHub Project, ChatGPT, Google
-
 tell application "Safari"
 	activate
+	delay 1
+	
 	tell application "System Events"
+		tell process "Safari"
+			set isFullScreen to (value of attribute "AXFullScreen" of window 1)
+		end tell
+		
+		if not isFullScreen then
+			keystroke "f" using {control down, command down}
+			delay 1
+		end if
+		
 		-- Opens my GitHub Profile
 		key code 17 using command down
 		keystroke "https://github.com/VishwaiOSDev"
