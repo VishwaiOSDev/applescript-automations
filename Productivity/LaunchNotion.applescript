@@ -1,7 +1,6 @@
 tell application "Notion"
 	activate
 	delay 1
-	
 	tell application "System Events"
 		tell process "Notion"
 			set isFullScreen to (value of attribute "AXFullScreen" of window 1)
